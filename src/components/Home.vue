@@ -2,26 +2,22 @@
   <v-container>
     <h1 v-if="rock">Oh he rocks all right</h1>
     <v-row class="text-center">
-      <v-col cols="12">
+      <!-- <v-col cols="12">
         <v-img
           :src="require('../assets/logo.svg')"
           class="my-3"
           contain
           height="200"
         />
-      </v-col>
-
-      <v-col class="mb-4">
-        <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Steven's World
-        </h1>
-
+      </v-col> -->
+      <v-col class="my-12">
         <p class="subheading font-weight-regular">
-          This is my album on vinyl
+          "Steven wears his heart on his sleeve and keeps his soul in a bottle of ink.  His mind is a quill at the ready.  As a longtime writer and performer while a major part of Oblio Duo and its various offshoots throughout the 00’s (Oblio Duo + The Archers, Oblio’s Arrow), Steven has always understood the craft of songwriting.  His instrumental talents are as varied as the genres he’s been able to express himself in."
         </p>
+        <p>-a nice person on the internet</p>
+        <v-icon>mdi-arrow-right-bold-outline</v-icon>
       </v-col>
-      <iframe src="https://open.spotify.com/embed/album/3Hj1E8QUwppAwTiMqTkY30?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <v-col
+      <!-- <v-col
         class="mb-5"
         cols="12"
       >
@@ -82,7 +78,18 @@
             {{ eco.text }}
           </a>
         </v-row>
-      </v-col>
+      </v-col> -->
+    </v-row>
+    <v-row>
+      <iframe
+          src="https://open.spotify.com/embed/album/3Hj1E8QUwppAwTiMqTkY30?utm_source=generator"
+          width="100%"
+          height="380"
+          frameBorder="2"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        >
+        </iframe>
     </v-row>
   </v-container>
 </template>
