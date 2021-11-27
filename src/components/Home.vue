@@ -10,7 +10,7 @@
           height="200"
         />
       </v-col> -->
-      <v-col class="my-12">
+      <v-col class="my-6">
         <v-card color="primary">
           <v-card-title>About</v-card-title>
           <v-card-text class="subheading px-6 bio">
@@ -83,7 +83,8 @@
         </v-row>
       </v-col> -->
     </v-row>
-    <v-row>
+    <v-row class="d-flex justify-center">
+      <v-col cols="6">
       <iframe
           src="https://open.spotify.com/embed/album/3Hj1E8QUwppAwTiMqTkY30?utm_source=generator"
           width="100%"
@@ -93,6 +94,7 @@
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         >
         </iframe>
+      </v-col>
     </v-row>
   </v-container>
 </template>
@@ -159,6 +161,6 @@
 
 <style scoped>
   .bio {
-    color: white;
+    font-size: 1.2rem;
   }
 </style>

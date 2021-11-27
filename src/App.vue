@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <div class="back full">
+    <div class="main-app">
     <v-app-bar
       app
       color="primary"
@@ -63,14 +63,8 @@ export default {
 </script>
 
 <style scoped>
-  body {
-    font-family: 'Comforter', cursive;
-    /* font-family: 'Roboto Mono', monospace;; */
-  }
-  .back {
-    background-color: #242728;
-  }
-  .full {
-    height: 130vh;
+  .v-application {
+   font-family: 'EB Garamond', serif !important;
+   font-size: 1.5rem;
   }
 </style>
