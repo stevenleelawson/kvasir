@@ -68,9 +68,9 @@ export default {
     /* font-family: 'Roboto Mono', monospace;; */
   }
   .back {
-    background-color: #1b5e20;
+    background-color: #242728;
   }
   .full {
-    height: 100vh;
+    height: 130vh;
   }
 </style>
