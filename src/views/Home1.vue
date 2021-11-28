@@ -2,17 +2,9 @@
   <v-container>
     <h1 v-if="rock">Oh he rocks all right</h1>
     <v-row class="text-center">
-      <!-- <v-col cols="12">
-        <v-img
-          :src="require('../assets/logo.svg')"
-          class="my-3"
-          contain
-          height="200"
-        />
-      </v-col> -->
       <v-col class="my-6">
         <v-card color="primary">
-          <v-card-title>About</v-card-title>
+          <h1>ABOUT</h1>
           <v-card-text class="subheading px-6 bio">
             "Steven wears his heart on his sleeve and keeps his soul in a bottle of ink. His mind is a quill at the ready. As a longtime writer and performer while a major part of Oblio Duo and its various offshoots throughout the 00’s (Oblio Duo + The Archers, Oblio’s Arrow), Steven has always understood the craft of songwriting. His instrumental talents are as varied as the genres he’s been able to express himself in. He’s just as likely to remind you of Harry Nilsson as he is Joe Strummer, both in sound and ethos. Steven admittedly aspires to be a less-successful version of John Lurie, with a dog army in the middle of nowhere. That should give the reader more insight into the ramblin’ troubadour that comprises the makeup of Mr. Lawson. When you listen to the songs on Steven’s self-titled debut solo outing, there’s no hiding the fact that life can be hard and that Steven has done some hard living. The constant reminder in between the beautiful interplay of pain and joy is that rarely does one find satisfaction or strength of character in an easy life. Luckily for us, Steven is strong enough to know that, endure it successfully and set it to music."
           </v-card-text>

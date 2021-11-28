@@ -5,6 +5,7 @@
       app
       color="primary"
       dark
+      class="mb-12"
     >
       <v-row>
         <v-col cols="3" class="d-flex justify-start">
@@ -29,26 +30,28 @@
         </v-col>
         
                 
-        <!-- <v-spacer></v-spacer> -->
         
       </v-row>
     </v-app-bar>
 
     <v-main>
-      <Home/>
+        <v-spacer></v-spacer>
+      <!-- <Home/> -->
+    <router-view/>
     </v-main>
+
     </div>
   </v-app>
 </template>
 
 <script>
-import Home from './components/Home';
+// import Home from './components/Home';
 
 export default {
   name: 'App',
 
   components: {
-    Home,
+    // Home,
   },
 
   data: () => ({
