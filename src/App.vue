@@ -8,7 +8,9 @@
       class="mb-12"
     >
       <v-row>
-        <v-col cols="3" class="d-flex justify-start">
+        <v-col
+          cols="3"
+          class="d-flex justify-start">
           <router-link to="/" class="link">
             <h1>STEVEN LEE LAWSON</h1>
           </router-link>
@@ -18,7 +20,10 @@
             <h1 color="white">Music Videos</h1>
           </router-link>
         </v-col>
-        <v-col cols="3" class="d-flex justify-start">
+        <v-col
+          cols="3"
+          class="d-flex justify-start"
+        >
           <v-btn
             href="http://snappylittlenumbers.limitedrun.com/products/698824-steven-lee-lawson-s-t-lp-digital"
             target="_blank"

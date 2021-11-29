@@ -4,7 +4,8 @@
       <v-row class="d-flex justify-center my-2">
         <v-col
           class="mx-auto"
-          cols="6"
+          lg="6"
+          sm="12"
         >
           <v-card
             color="primary"
@@ -23,7 +24,8 @@
       <v-row class="d-flex justify-center my-2">
         <v-col
           class="mx-auto"
-          cols="6"
+          lg="6"
+          sm="12"
         >
           <v-card
             color="primary"

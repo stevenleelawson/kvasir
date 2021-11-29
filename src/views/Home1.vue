@@ -76,7 +76,10 @@
       </v-col> -->
     </v-row>
     <v-row class="d-flex justify-center">
-      <v-col cols="6">
+      <v-col
+        lg="6"
+        sm="12"
+      >
       <iframe
           src="https://open.spotify.com/embed/album/3Hj1E8QUwppAwTiMqTkY30?utm_source=generator"
           width="100%"
