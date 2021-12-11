@@ -1,7 +1,7 @@
 <template>
   <div class="music-vid content">
     <v-container>
-      <v-row class="d-flex justify-center my-2">
+      <v-row class="d-flex justify-center">
         <v-col
           class="mx-auto"
           lg="6"

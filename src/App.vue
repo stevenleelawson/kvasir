@@ -14,12 +14,17 @@
           cols="3"
           class="d-flex justify-start">
           <router-link to="/" class="link">
-            <h1>STEVEN LEE LAWSON</h1>
+            <h2>STEVEN LEE LAWSON</h2>
           </router-link>
         </v-col>
         <v-col cols="2">
           <router-link to="/music-videos" class="link">
-            <h1 color="white">Music Videos</h1>
+            <h2 color="white">Music Videos</h2>
+          </router-link>
+        </v-col>
+        <v-col cols="2">
+          <router-link to="/reviews" class="link">
+            <h2 color="white">Reviews</h2>
           </router-link>
         </v-col>
         <v-col
@@ -45,13 +50,9 @@
       v-if="this.$vuetify.breakpoint.xsOnly"
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-    <!-- <v-card
-      class="mx-auto overflow-hidden"
-      height="400"
-      v-if="drawer"
-    > -->
-      
-    <!-- </v-card> -->
+      <router-link to="/" class="link">
+        <h2>STEVEN LEE LAWSON</h2>
+      </router-link>
     </v-app-bar>
     <v-main>
       <v-navigation-drawer
@@ -77,6 +78,11 @@
           <v-list-item>
             <router-link to="/music-videos" class="link">
               <h1 color="white">Music Videos</h1>
+            </router-link>
+          </v-list-item>
+          <v-list-item>
+            <router-link to="/reviews" class="link">
+              <h1 color="white">Reviews</h1>
             </router-link>
           </v-list-item>
           <v-list-item>
