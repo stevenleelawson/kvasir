@@ -12,6 +12,37 @@
         >
       </iframe>
       </div>
+
+      <v-row class="d-flex justify-center my-2">
+        <v-col
+          class="mx-auto"
+          lg="6"
+          sm="12"
+        >
+          <v-card
+            color="primary"
+            class="d-flex flex-column justify-center my-4"
+          >
+            <v-container>
+                <h2 class="text-center">THE DAILY VAULT REVIEW</h2>
+                <img :src="require('../assets/images/dailyvaultreal.jpeg')" alt="daily vault">
+                <p>A veteran musician and longtime player in Oblio Duo and its related projects (Oblio's Arrow), Steven Lee Lawson’s very eclectic solo debut is full of heartfelt and honest songwriting from an artist who has plenty of stories to tell, even if some of them are rooted in hard living.
+Lawson starts the listen with the kind of jangly and definitely warm spirit of “Economics,” where quick acoustic guitar, crisp drumming, and bowed strings make a strong impression.
+
+Things get even more interesting from there with the crunchy, lo-fi indie-rocker “Corpse Rising,” as well as the piano-friendly and cautious folk of “Misaligned,” which wouldn't be out of place on a Saddle Creek Records compilation. “I Ain't Enough,” one of the album's best, then moves swiftly with raw electric guitar and crashing drums amid buzzing melodies and no shortage of grit.
+
+The back half of the listen is equally superb, and includes the soft and atmospheric “The Foresaken,” where a hypnotic, even mysterious quality enters the darker textures. “Melodies” then takes a similar route, which benefits from mesmerizing keys and Lawson's soulful singing and soothing humming, while “Black Moon” alternates between calm yet tense moments and giant swells of soaring punk meets garage rock.
+
+The final two tracks, “Never Wanna Takin You Home” and “Sapphires,” exit the album perfectly. The former is a gentle Americana strummer that even welcomes banjo into its rural leanings, and the latter is a bare and pretty display of poetic, intimate songcraft.
+
+A very diverse listen that balances energetic and firm moments with vulnerable bouts of eloquent storytelling, Lawson has penned a record that the mature punk/alt-rock crowd will appreciate just as much as the folk/Americana inclined. It comes with much sincerity and a tremendous amount of skill, too.
+
+Rating: A</p>
+            </v-container>
+          </v-card>
+        </v-col>
+      </v-row>
+  
       <v-row class="d-flex justify-center my-2">
         <v-col
           class="mx-auto"
@@ -55,35 +86,7 @@ My Overall Rating: 7 out of 10
           </v-card>
         </v-col>
       </v-row>
-      <v-row class="d-flex justify-center my-2">
-        <v-col
-          class="mx-auto"
-          lg="6"
-          sm="12"
-        >
-          <v-card
-            color="primary"
-            class="d-flex flex-column justify-center my-4"
-          >
-            <v-container>
-                <h2 class="text-center">THE DAILY VAULT REVIEW</h2>
-                <img :src="require('../assets/images/dailyvaultreal.jpeg')" alt="daily vault">
-                <p>A veteran musician and longtime player in Oblio Duo and its related projects (Oblio's Arrow), Steven Lee Lawson’s very eclectic solo debut is full of heartfelt and honest songwriting from an artist who has plenty of stories to tell, even if some of them are rooted in hard living.
-Lawson starts the listen with the kind of jangly and definitely warm spirit of “Economics,” where quick acoustic guitar, crisp drumming, and bowed strings make a strong impression.
-
-Things get even more interesting from there with the crunchy, lo-fi indie-rocker “Corpse Rising,” as well as the piano-friendly and cautious folk of “Misaligned,” which wouldn't be out of place on a Saddle Creek Records compilation. “I Ain't Enough,” one of the album's best, then moves swiftly with raw electric guitar and crashing drums amid buzzing melodies and no shortage of grit.
-
-The back half of the listen is equally superb, and includes the soft and atmospheric “The Foresaken,” where a hypnotic, even mysterious quality enters the darker textures. “Melodies” then takes a similar route, which benefits from mesmerizing keys and Lawson's soulful singing and soothing humming, while “Black Moon” alternates between calm yet tense moments and giant swells of soaring punk meets garage rock.
-
-The final two tracks, “Never Wanna Takin You Home” and “Sapphires,” exit the album perfectly. The former is a gentle Americana strummer that even welcomes banjo into its rural leanings, and the latter is a bare and pretty display of poetic, intimate songcraft.
-
-A very diverse listen that balances energetic and firm moments with vulnerable bouts of eloquent storytelling, Lawson has penned a record that the mature punk/alt-rock crowd will appreciate just as much as the folk/Americana inclined. It comes with much sincerity and a tremendous amount of skill, too.
-
-Rating: A</p>
-            </v-container>
-          </v-card>
-        </v-col>
-      </v-row>
+  
       <v-row class="d-flex justify-center my-2">
         <v-col
           class="mx-auto"
@@ -97,6 +100,9 @@ Rating: A</p>
             <v-container>
                 <h2 class="text-center">QUEEN CITY SOUNDS REVIEW</h2>
                 <img :src="require('../assets/images/queencity.jpeg')" alt="daily vault">
+                <p>
+                  After several years of musical hiatus, Steven Lee Lawson returns with nine songs that concisely, accurately and poetically summarize the thoughts and feelings of working class people of conscience of the past decade and more. This album encapsulates the way we’ve all been made to feel inadequate to the economic realities of the modern world and the personal fallout from being perpetually in a state of financial and thus physical insecurity. Lawson brings the listener close with his vocal delivery and reminds you of your inherent dignity no matter all the psychic damage you’ve undergone. It comes off like a record about someone who has been through a brutally abusive relationship, but this is one with the world as it is which doesn’t need to be as we can weather the storm with understanding and solidarity.
+                </p>
                 <p>Steven Lee Lawson recently released his 2021 self-titled album on Snappy Little Numbers. Lawson played music for years in Denver and elsewhere and his thoughtful lyrics and poetic commentary on human existence with a particular knack for giving form to frustrations, despair, joy, affection and excitement have always made his work noteworthy. But Lawson took seemingly several years off playing music because it can be an unrewarding grind in so many ways with not nearly enough rewards for innovators and those with something unique and interesting to say. Whether in art rock band Zubabi, Americana groups Oblio Duo and Los Dos and the New American Ramblers or even Ross Etherton and the Chariots of Judah, Lawson really brought some passion and creativity to his bands. The self-titled album is an extension and evolution of the songwriter’s prior work and one in which he seems to illuminate and clarify aspects of American culture the past several years that have seemed confusing or tangled. If you go to this show you also get to see Doo Crowder who is like a modern day Harry Nilsson.</p>
             </v-container>
           </v-card>
